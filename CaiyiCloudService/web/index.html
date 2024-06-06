@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>彩艺云</title>
+</head>
+<body>
+    <div class="content-wrapper" style="display: block;">
+        <img class="logo" src="favico.png" alt="彩艺云">
+        <h1 class="h1-logo">彩艺云店铺</h1>
+        <div class="login-input">
+            <input type="tel"  id="phone" maxlength="11" placeholder="请输入手机号码">
+        </div>
+        <div class="login-input clf">
+            <input class="code"  id="sms-code" type="text" maxlength="4" placeholder="请输入验证码">
+            <button class="sms-code-btn btn-disabled fr" disabled>获取验证码</button>
+        </div>
+        <button class="login-btn btn-disabled" id="loginBtn" disabled>立即登录</button>
+    </div>
+    <div class="content-wrapper" style="display: none;">
+        <button class="login-btn" id="ticket" style="margin-top: 20px; margin-bottom: 20px;">抢号</button>
+        <button class="login-btn" id="ticket2" style="margin-top: 20px; margin-bottom: 20px;">开启定时抢号</button>
+        <textarea name="" id="" cols="30" rows="15" readonly></textarea>
+    </div>
+    <script src="index.js"></script>
+    </script>
+</body>
+</html>
